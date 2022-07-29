@@ -1,0 +1,134 @@
+img{
+    width: 100%;
+}
+
+.banner{
+    width: 100%
+}
+
+.anfahrt{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.anfahrt img{
+    width: 60%;
+    height: auto;
+    padding-right: 1rem;
+}
+
+.nav{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.body{
+    max-width: 90ch;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    font-size: 15px;
+    font-family: Helvetica, Arial sans-serif;
+}
+
+ul{
+    list-style: none;
+    padding: 1rem;  
+}
+
+li{
+    border-top: 1px solid grey; 
+}
+
+
+h1{ 
+    font-size: 4rem;
+    font-family: Helvetica, Arial sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2{
+    font-size: 2rem;
+    font-family: Helvetica, Arial sans-serif; 
+    margin-bottom: 20px;
+}
+
+h3{
+    font-size: 1rem;
+    font-family: Helvetica, Arial sans-serif; 
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: gray;
+    display: block;
+}
+
+a:hover{
+    color: #000;
+}
+
+.produkt{
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+    display: block;
+}
+
+.produkt:hover{
+    color: limegreen;
+}
+
+.intro{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 100px;
+}
+
+.intro p{
+    font-size: 20px;
+}
+
+section{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 70px;
+    border-top: 1px solid black;
+}
+
+
+.impressum{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 100px;
+    margin-bottom: 300px;
+    border-top: 1px solid black;
+    text-align: center;
+}
+
+.impressum h2{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.impressum h3{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    color: gray
+}
+
+.impressum p{
+    color: gray
+}
+
+td{
+   width: 400px;
+}
